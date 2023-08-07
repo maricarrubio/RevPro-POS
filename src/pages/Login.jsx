@@ -10,8 +10,8 @@ function Login() {
           <form>
             <h3 className='text-center'> Sign In</h3>
             <div className='mb-2'>
-              <label htmlFor="email">Email</label>
-              <input type="email" placeholder='Enter Email' className='form-control'/>
+              <label htmlFor="email">Employee/Admin ID</label>
+              <input type="ea_id" placeholder='Enter Employee/Admin ID' className='form-control'/>
             </div>
             <div className='mb-2'>
               <label htmlFor="password">Password</label>
@@ -27,7 +27,7 @@ function Login() {
               </div>
               <p className='text=end mt-2'>
                 Forgot <a href="">Password?</a>
-                <Link to ="/" className='ms-2'>Sign up</Link>
+                <Link to ="/" className='ms-2'>Register</Link>
               </p>
             </div>
           </form>
